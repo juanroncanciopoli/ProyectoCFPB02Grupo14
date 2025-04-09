@@ -2,5 +2,7 @@
   1. Juan Sebastian Roncancio Cardenas.
   2. Juan David Suarez Pinzón.
   3. Adrian Santiago Torres Guevara.
+  4. Richard Stiven Guevara Patarroyo
+  5. Jose Manuel Urrego Carvajal
 
 - Enlace al repositorio: https://github.com/juanroncanciopoli/ProyectoCFPB02Grupo14

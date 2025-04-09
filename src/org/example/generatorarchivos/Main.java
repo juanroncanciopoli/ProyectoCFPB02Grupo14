@@ -46,18 +46,25 @@ public class Main {
         switch (option) {
             case 1:
                 GenerateInfoFiles.createVendorsInfoFile(10, "vendedores.csv");
+                System.out.println("Archivo vendedores generado correctamente!");
                 break;
             case 2:
                 GenerateInfoFiles.createProductsFile(15, "productos.csv");
+                System.out.println("Archivo productos generado correctamente!");
+
                 break;
             case 3:
                 GenerateInfoFiles.createVendorsInfoFile(10, "vendedores.csv");
                 GenerateInfoFiles.createProductsFile(15, "productos.csv");
                 GenerateInfoFiles.createSalesFile(20, "ventas.csv", GenerateInfoFiles.getSalesmanIds(), GenerateInfoFiles.getProductIds());
+                System.out.println("Archivos de vendedores y productos generados correctamente!");
+
 
                 break;
             case 4:
                 GenerateInfoFiles.createSalesReport("ventas.csv", "vendedores.csv", "productos.csv", "reporte_vendedores.csv", "reporte_productos.csv");
+                System.out.println("Archivo de reporte de ventas generado correctamente!");
+
                 break;
             case 5:
                 GenerateInfoFiles.createVendorsInfoFile(10, "vendedores.csv");
